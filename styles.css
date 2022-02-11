@@ -1,1 +1,3 @@
-@import url(/styles/post.css);
+@import url(./styles/post.css);
+@import "./styles/base.css";
+@import "./styles/components/home-header.css";
