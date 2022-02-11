@@ -1,3 +1,6 @@
-@import url(./styles/post.css);
 @import "./styles/base.css";
+@import "./styles/components/footer-navigation.css";
 @import "./styles/components/home-header.css";
+@import "./styles/components/story-box.css";
+@import "./styles/components/story-container.css";
+@import url(./styles/post.css);
