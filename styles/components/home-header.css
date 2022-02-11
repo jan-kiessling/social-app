@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(42, 165, 118);
 }
 
 .home-header__message {
