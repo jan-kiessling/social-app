@@ -1,0 +1,29 @@
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(42, 165, 118);
+}
+
+.home-header__message {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 5px;
+  position: relative;
+}
+
+.red-dot {
+  background-color: red;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  border: 1px solid white;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.home-header h1 {
+  font-size: 18px;
+}
