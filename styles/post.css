@@ -1,0 +1,30 @@
+.post-container {
+}
+
+.post {
+  border: 1px solid #323436;
+}
+
+.post__header {
+  display: flex;
+}
+
+.post__profilepic {
+  border-radius: 50%;
+  margin: 0px 8px;
+}
+
+.post__title {
+}
+
+.post__time {
+}
+
+.post__menu {
+}
+
+.post__main {
+}
+
+.post__footer {
+}
