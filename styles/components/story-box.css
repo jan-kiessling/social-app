@@ -1,0 +1,18 @@
+.story-box {
+  position: relative;
+}
+
+.story-box__bimg {
+  height: 140px;
+  width: 100px;
+  border-radius: 16px;
+}
+
+.story-box__simg {
+  border-radius: 50%;
+  position: relative;
+  top: -41px;
+  left: 34px;
+  border: 2px solid black;
+  box-shadow: 0 0 0 2px #f62e8e;
+}
