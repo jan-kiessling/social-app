@@ -1,0 +1,9 @@
+.tags {
+  border: 1px solid white;
+  padding: 6px 10px;
+  border-radius: 16px;
+}
+
+.tags--active {
+  background-color: #2e8af7;
+}

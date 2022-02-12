@@ -1,0 +1,14 @@
+.filter-bar {
+  margin-top: 20px;
+  margin-left: 24px;
+}
+
+.filter-bar__item-box {
+  margin-top: 13px;
+  display: flex;
+  gap: 12px;
+  /* Unbedingt space-between nehmen, sonst gehen die items aus der box heraus*/
+  justify-content: space-between;
+  overflow-x: scroll;
+  width: auto;
+}
