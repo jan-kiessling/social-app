@@ -2,5 +2,5 @@
   display: flex;
   gap: 12px;
   margin: 28px 24px 12px 24px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
