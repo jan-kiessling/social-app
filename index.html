@@ -16,10 +16,11 @@
   <body>
     <header class="home-header">
       <h1>Good morning, Alex.</h1>
-      <div class="home-header__message">
+      <label class="sr-only" for="new-message">New message</label>
+      <button id="new-message" class="home-header__message button-reset">
         <img src="./icons/Message.svg" alt="Message" />
         <div class="red-dot"></div>
-      </div>
+      </button>
     </header>
     <main>
       <section class="story-container">
@@ -98,19 +99,30 @@
           </main>
           <footer class="post__footer">
             <div class="post__icon">
-              <img src="./icons/Like.svg" alt="Like" />
+              <label class="sr-only" for="like">Like this post</label>
+              <button id="like" class="button-reset">
+                <img src="./icons/Like.svg" alt="" />
+              </button>
               <span>2,245</span>
-              <img src="./icons/Comment.svg" alt="Comment" />
+              <label class="sr-only" for="comment">Comment this post</label>
+              <button id="comment" class="button-reset">
+                <img src="./icons/Comment.svg" alt="" />
+              </button>
               <span>45</span>
-              <img src="./icons/Share.svg" alt="Share" />
+              <label class="sr-only" for="share">Share this post</label>
+              <button id="share" class="button-reset">
+                <img src="./icons/Share.svg" alt="" />
+              </button>
               <span>124</span>
             </div>
+            <label class="sr-only" for="bookmark">Bookmark this post</label>
+            <button id="bookmark" class="button-reset">
             <img
               src="./icons/Bookmark.svg"
-              alt="Bookmark"
+              alt=""
               class="post__bookmark"
             />
-          </footer>
+          </button>
         </article>
         <article class="post">
           <header class="post__header">
